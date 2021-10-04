@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 3000;
 const path = require("path");
 var pokedex = [{ numero: "001", nome: "Squirtle", tipo: "Água", imagem: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/007.png", descricao: "Quando ele retrai seu longo pescoço em sua concha, ele esguicha água com força vigorosa.", altura: "0.5m", peso: "9.0", categoria: "Tiny Turtle", habilidade: "Torrent"},{ numero: "002", nome: "Bulbasaur", tipo: "Planta", imagem: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/001.png", descricao: "Há uma semente de planta em suas costas desde o dia em que o Pokémon nasceu. A semente cresce lentamente.", altura: "0.7m", peso: "6.9", categoria: "Seed", habilidade: "Overgrow"},{ numero: "003", nome: "Charmander", tipo: "Fogo", imagem: "https://assets.pokemon.com/assets/cms2/img/pokedex/detail/004.png", descricao: "Tem preferência por coisas quentes. Quando chove, diz-se que o vapor jorra da ponta da cauda.", altura: "0.7m", peso: "8.5", categoria: "Lizard", habilidade: "Blaze"}];
 
