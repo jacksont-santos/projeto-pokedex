@@ -90,7 +90,6 @@ ul#de {
 }
 div {
   margin-bottom: 40px;
-
 }
 .item {
   flex-shrink: 0;
@@ -127,50 +126,24 @@ div#inf {
   font-size: 1.3rem;
   font-weight: 600;
 }
-
-section#details {
-  margin: 0 20rem 0 20rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #fff;
-  border-radius: 2rem;
-  padding: 3rem;
-  box-shadow: 0 0 1rem #00000060;
-}
-
-section#details div#infos p {
-  font-size: 2rem;
-  padding-bottom: 3rem;
-}
-
-section#details div#infos div#info-datail {
-  background-color: #ccc;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 2rem;
-  width: 60%;
-  border-radius: 1rem;
-}
-
-section#details div#infos div#info-datail h3 {
-  font-size: 2rem;
-  font-weight: 300;
-  padding: 0.5rem 0 1rem 0;
-}
-
-section#details div#infos h3 {
-  padding-top: 3rem;
-  font-size: 2rem;
-}
-
-section#details div#infos h2 {
-  background-color: rgb(255, 47, 47);
-  padding: 1rem;
+h1#mens {
   color: #fff;
-  border-radius: 1rem;
-  width: 50%;
+  font-size: 1rem;
   text-align: center;
-  margin-top: 1rem;
+}
+form#for {
+  margin-left: 30px;
+  border-radius: 3px;
+}
+label {
+  background-color: black;
+  color: #fff;
+  border-radius: 3rem;
+  padding: 0.3rem;
+}
+button {
+  background-color: black;
+  color: #fff;
+  border-radius: 3rem;
+  padding: 0.5rem;
 }
